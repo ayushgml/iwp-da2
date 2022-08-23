@@ -232,6 +232,7 @@
 
 .book_card:hover{
     background-color: rgb(255, 255, 255);
+    scale: 1.02;
 }
 
 .book_card img {
@@ -435,6 +436,14 @@
     text-decoration: none;
 }
 
+.sign_up{
+    color: #F6BF48;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.85em;
+    text-decoration: none;
+}
+
 .footer{
     display: flex;
     align-items: center;
@@ -456,4 +465,12 @@
     font-size: 20px;
     font-weight: 700;
     margin-left: 15px;
+}
+
+.time_offer{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #F6BF48;
 }

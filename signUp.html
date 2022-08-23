@@ -21,13 +21,14 @@
                 <a href="index.html"><h3 class="navigate_button">Home</h3></a>
                 <a href=""><h3 class="navigate_button">About</h3></a>
                 <a href=""><h3 class="navigate_button">Contact Us</h3></a>
+                <a href="signIn.html"><h4 class="book_title" class="navigate_button2">Sign In</h4 class="book_title"></a>
             </div>
         </div>
     </div>
     <div class="body">
     <div class="container">
         <form name="myForm" onsubmit="validateForm()">
-            <h3>Log In</h3>
+            <h3>Sign Up</h3>
             <div class="inputBox">
                 <span>Username</span>
                 <div class="box">
@@ -36,22 +37,32 @@
                 </div>
             </div>
             <div class="inputBox">
+                <span>Email</span>
+                <div class="box">
+                    <div class="icon"><img src="email.svg" alt=""></div>
+                    <input type="email" name="emailId" id="emailId">
+                </div>
+            </div>
+            <div class="inputBox">
                 <span>Password</span>
                 <div class="box">
-                    <div class="icon"><img onload="loadCard()" src="lock-closed.svg" alt=""></div>
+                    <div class="icon"><img src="lock-closed.svg" alt=""></div>
                     <input type="password" name="password" id="password">
                 </div>
             </div>
-            <label for="">
-                <input type="checkbox" name="" id="">Remember Me
-            </label>
             <div class="inputBox">
+                <span>Re-enter Password</span>
                 <div class="box">
-                    <input type="submit" name="" id="" value="Log in">
+                    <div class="icon"><img onload="loadCard()" src="lock-closed.svg" alt=""></div>
+                    <input type="password" name="re-password" id="re-password">
                 </div>
             </div>
-            <a href="#" class="forgot">Forget Password</a><br><br>
-            <a href="signUp.html" class="sign_up">Don't Have an account?<br><b>Sign Up here!</b></a>
+            <div class="inputBox">
+                <div class="box">
+                    <input type="submit" name="" id="" value="Sign Up">
+                </div>
+            </div>
+            <a href="signIn.html" class="sign_up">Already have an account?<br><b>Sign In here!</b></a>
         </form>
     </div>
     </div>
